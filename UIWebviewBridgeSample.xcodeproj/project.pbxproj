@@ -15,6 +15,10 @@
 		4DAB5CE21D823F5F00C84927 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DAB5CE01D823F5F00C84927 /* LaunchScreen.storyboard */; };
 		4DAB5CED1D823F5F00C84927 /* UIWebviewBridgeSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAB5CEC1D823F5F00C84927 /* UIWebviewBridgeSampleTests.m */; };
 		4DAB5CF81D823F5F00C84927 /* UIWebviewBridgeSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAB5CF71D823F5F00C84927 /* UIWebviewBridgeSampleUITests.m */; };
+		4DBD2CC21D824CCD0017D364 /* webviewTest.html in Resources */ = {isa = PBXBuildFile; fileRef = 4DBD2CC11D824CCD0017D364 /* webviewTest.html */; };
+		4DBD2CC31D824D0F0017D364 /* webviewTest.html in Sources */ = {isa = PBXBuildFile; fileRef = 4DBD2CC11D824CCD0017D364 /* webviewTest.html */; };
+		4DBD2CC41D824DBE0017D364 /* webviewTest.html in Resources */ = {isa = PBXBuildFile; fileRef = 4DBD2CC11D824CCD0017D364 /* webviewTest.html */; };
+		4DBD2CC51D824DC30017D364 /* webviewTest.html in Resources */ = {isa = PBXBuildFile; fileRef = 4DBD2CC11D824CCD0017D364 /* webviewTest.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,7 @@
 		4DAB5CF31D823F5F00C84927 /* UIWebviewBridgeSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIWebviewBridgeSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DAB5CF71D823F5F00C84927 /* UIWebviewBridgeSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIWebviewBridgeSampleUITests.m; sourceTree = "<group>"; };
 		4DAB5CF91D823F5F00C84927 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DBD2CC11D824CCD0017D364 /* webviewTest.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = webviewTest.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,7 @@
 		4DAB5CD11D823F5F00C84927 /* UIWebviewBridgeSample */ = {
 			isa = PBXGroup;
 			children = (
+				4DBD2CC11D824CCD0017D364 /* webviewTest.html */,
 				4DAB5CD51D823F5F00C84927 /* AppDelegate.h */,
 				4DAB5CD61D823F5F00C84927 /* AppDelegate.m */,
 				4DAB5CD81D823F5F00C84927 /* ViewController.h */,
@@ -243,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DBD2CC21D824CCD0017D364 /* webviewTest.html in Resources */,
 				4DAB5CE21D823F5F00C84927 /* LaunchScreen.storyboard in Resources */,
 				4DAB5CDF1D823F5F00C84927 /* Assets.xcassets in Resources */,
 				4DAB5CDD1D823F5F00C84927 /* Main.storyboard in Resources */,
@@ -253,6 +260,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DBD2CC41D824DBE0017D364 /* webviewTest.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +268,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DBD2CC51D824DC30017D364 /* webviewTest.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DBD2CC31D824D0F0017D364 /* webviewTest.html in Sources */,
 				4DAB5CDA1D823F5F00C84927 /* ViewController.m in Sources */,
 				4DAB5CD71D823F5F00C84927 /* AppDelegate.m in Sources */,
 				4DAB5CD41D823F5F00C84927 /* main.m in Sources */,
@@ -498,6 +508,7 @@
 				4DAB5CFE1D823F5F00C84927 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DAB5CFF1D823F5F00C84927 /* Build configuration list for PBXNativeTarget "UIWebviewBridgeSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +517,7 @@
 				4DAB5D011D823F5F00C84927 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DAB5D021D823F5F00C84927 /* Build configuration list for PBXNativeTarget "UIWebviewBridgeSampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +526,7 @@
 				4DAB5D041D823F5F00C84927 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
